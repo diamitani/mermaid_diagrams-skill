@@ -1,3 +1,9 @@
+---
+name: mermaid-diagrams
+description: >
+  Mermaid is a free, open-source diagramming library that renders text-based diagram definitions into visual diagrams. Use it any time you need to communicate: - System/workflow architecture to engineers or stakeholders - GTM automation flows for ELT presentations Use this skill when working with mermaid diagrams tasks or workflows.
+---
+
 # Mermaid.js — Diagram & Workflow Creation
 
 Mermaid is a free, open-source diagramming library that renders text-based diagram definitions
@@ -112,10 +118,10 @@ sequenceDiagram
 
 ## Gantt Charts — Project Plans & Implementation Timelines
 
-### Example: {{COMPANY_NAME}} Sales Cycle + Implementation
+### Example: Enterprise Platform Sales Cycle + Implementation
 ```mermaid
 gantt
-    title {{COMPANY_NAME}} Deal → First Hire Timeline
+    title Enterprise Platform Deal → First Hire Timeline
     dateFormat  YYYY-MM-DD
     section Sales Cycle
     Discovery Call           :a1, 2025-01-06, 3d
@@ -208,10 +214,10 @@ quadrantChart
 
 ## Mind Maps — System Breakdown for Stakeholders
 
-### Example: {{COMPANY_NAME}} GTM Stack Overview
+### Example: Enterprise Platform GTM Stack Overview
 ```mermaid
 mindmap
-  root(({{COMPANY_NAME}} GTM Stack))
+  root((Enterprise Platform GTM Stack))
     Clay
       Outbound Prospecting
         Company Enrichment
@@ -249,7 +255,7 @@ mindmap
 
 ```mermaid
 timeline
-    title {{COMPANY_NAME}} AI GTM Initiative Roadmap
+    title Enterprise Platform AI GTM Initiative Roadmap
     section Q1 2025
         January  : Clay tables live
                  : HubSpot custom properties
